@@ -1,0 +1,114 @@
+/*
+
+Theme Name: WordPress-Book
+Theme URI: http://localhost/wordpress 	
+Version:1.0
+Author: Mhamdi Youssef
+Description: Just a site Like !Facebook
+Text Domain: WordPressBook
+
+*/
+/*  ----------------------------- Header-Style -----------------------------  */
+/*  Global CSS  */
+body,html{
+  background-color: #e9ebee !important;
+}
+a{
+  /*color: #385898 !important;*/
+}
+.bg-fb-blue{
+	background: #4267B2 !important;
+}
+.row.post-content p {
+  color: rgb(29, 33, 41);
+  direction: ltr;
+  display: inline;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.3167px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  overflow-wrap: break-word;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col{
+  padding: 0px !important;
+}
+/*  endGlobalCSS  */
+.row.side-row.ml-3.mr-3 {
+	width: 300px;
+}
+
+.inlined, .menu-item{
+	display: inline-block;
+/*! line-height: 47px; */
+}
+.navbar.navbar-expand-lg.static-top {
+	height: 50px;
+}
+.inlined.logo.navbar-expand-lg.navbar-nav.nav-link {
+	height: 45px;
+	padding: 0px;
+	/*width: 60px;*/
+}
+nav.fixed-top{
+  top: 32px;
+}
+#navbarResponsive{
+  display: flex;
+}
+
+.current_page_item a{
+  padding: 3px 10px;
+  background: rgba(0, 0, 0, .15);
+  border-radius: 7px
+  /*color: white !important;
+  border-radius: 10px;*/
+}
+
+picture.logo-img img, 
+picture.logo-img source{
+  height: 45px;
+  width: 45px;
+  border-radius: 30px;
+}
+.post-user-img .user-img{
+    height: 50px !important;
+    width: 50px !important;
+    background: transparent;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid gray;
+}
+.col.user-image{
+    text-align: center;
+}
+
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.red-border {
+    border: 1px solid #ef9a9a;
+}
+.input-group.md-form.form-sm.form-2 input.lime-border {
+    border: 1px solid #cddc39;
+}
+.input-group.md-form.form-sm.form-2 input.amber-border {
+    border: 1px solid #ffca28;
+}
+
+.Post-full {
+  background-color: #fff;
+  margin-bottom: 10px;
+  width: auto;
+  max-width: 550px;
+}
